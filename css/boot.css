@@ -1,0 +1,39 @@
+/* css/boot.css - Estilos da tela de boot */
+
+#boot-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+}
+
+.boot-logo {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.boot-bar {
+    width: 300px;
+    height: 20px;
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.boot-progress {
+    height: 100%;
+    background: linear-gradient(90deg, #0066ff, #00ccff);
+    width: 0%;
+    animation: loading 3s ease-in-out forwards;
+}
+
+@keyframes loading {
+    to {
+        width: 100%;
+    }
+}

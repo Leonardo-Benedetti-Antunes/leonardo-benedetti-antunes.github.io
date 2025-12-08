@@ -1,0 +1,51 @@
+/* css/login.css - Estilos da tela de login */
+
+#login-screen {
+    display: none;
+    height: 100vh;
+    background: linear-gradient(180deg, #5a7fcc, #2b5ba6);
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.login-title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.user-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+}
+
+.user-icon {
+    width: 80px;
+    height: 80px;
+    background: #4a90e2;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.user-name {
+    font-size: 18px;
+    color: #333;
+}

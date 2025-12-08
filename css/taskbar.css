@@ -1,0 +1,90 @@
+/* css/taskbar.css - Estilos da barra de tarefas e menu iniciar */
+
+.taskbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: linear-gradient(180deg, #245edb, #3f8cf3);
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.start-button {
+    background: linear-gradient(180deg, #5edb5e, #3ba83b);
+    border: 1px solid #0f4d0f;
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.start-button:hover {
+    background: linear-gradient(180deg, #70e070, #45b845);
+}
+
+.start-button:active {
+    background: linear-gradient(180deg, #45b845, #3ba83b);
+}
+
+.clock {
+    margin-left: auto;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+/* Menu Iniciar */
+.start-menu {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+    width: 300px;
+    background: #fff;
+    border: 2px solid #0831d9;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.start-menu-header {
+    background: linear-gradient(90deg, #245edb, #3f8cf3);
+    color: #fff;
+    padding: 40px 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.start-menu-items {
+    padding: 10px 0;
+}
+
+.start-menu-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.start-menu-item:hover {
+    background: #316ac5;
+    color: #fff;
+}
+
+.start-menu-separator {
+    height: 1px;
+    background: #ccc;
+    margin: 5px 0;
+}
